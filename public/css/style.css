@@ -1,0 +1,378 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: normal;
+	font-size: normal;
+}
+
+header {
+	width: 100%;
+	display: block;
+}
+
+header .header-area {
+	padding: 10px 0;
+	background: #f37021;
+	border: 1px;
+}
+
+header .header-area .container {
+	width: 1140px;
+	margin: auto;
+	padding: 0 15px;
+	min-height: 20px;
+}
+
+header .header-area .container .flex-item {
+	display: flex;
+}
+
+header .header-area .container .flex-item .hotline {
+	flex: 3;
+}
+
+header .header-area .container .flex-item .hotline span {
+	display: flex;
+	text-align: center;
+}
+
+header .header-area .container .flex-item .hotline span h3,
+header .header-area .container .flex-item .hotline span a {
+	color: #ffffff;
+	text-decoration: none;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 21px;
+	margin: 0px 2px;
+}
+
+header .header-area .container .flex-item .contact {
+	flex: 3;
+}
+
+header .header-area .container .flex-item .contact .flex-contact ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header .header-area .container .flex-item .contact .flex-contact ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	padding: 5px 25px;
+	text-transform: uppercase;
+	line-height: 20px;
+	border-right: 1px solid #fff;
+}
+
+nav {
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #eee;
+}
+
+nav .menu {
+	width: 1140px;
+	margin: auto;
+	padding: 10px 0;
+}
+
+nav .flex-item {
+	display: flex;
+}
+
+nav .flex-item .logo {
+	flex: 2;
+}
+
+nav .flex-item .flex-menu ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+nav .flex-item .flex-menu ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav .flex-item .flex-menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 9px 15px;
+	line-height: 90px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+nav .flex-item .flex-menu ul li a:hover {
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 9px 15px;
+	line-height: 90px;
+	font-weight: bold;
+	border: 0.1px solid #f37021;
+	border-radius: 20px #f37021;
+	color: #f37021;
+}
+
+.banner {
+	width: 100%;
+}
+
+.banner .container img {
+	width: 100%;
+}
+
+.content .container {
+	width: 1140px;
+	margin: 10px 10px;
+	margin: auto;
+}
+
+.content>.container>h3 {
+	padding: 25px 0;
+	border-bottom: 1px solid #ccc;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.content .container .flex-item ul {
+	display: flex;
+	width: 100%;
+	margin: 30px 0 0 0;
+	padding: 0;
+}
+
+.content .container .flex-item ul li {
+	list-style: none;
+	width: 31%;
+	background: #efefef;
+	border: 1px solid #e6e6e6;
+	border-radius: 20px;
+	margin: 15px;
+}
+
+.content .container .flex-item ul li h3 {
+	display: block;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0;
+	color: #ffffff;
+	background: #f37021;
+	border-radius: 20px 20px 0 0;
+}
+
+.content .container .flex-item .thongtin-goicuoc .gia-goi-cuoc {
+	color: #f37021;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 700;
+	padding: 20px 0;
+	font-family: 'UTM Avo';
+}
+
+.content .container .flex-item .thongtin-goicuoc .gia-goi-cuoc span {
+	font-size: 16px;
+	text-align: center;
+}
+
+.content .container .flex-item .thongtin-goicuoc .tocdo-goicuoc {
+	text-align: center;
+	padding: 0px 0;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.content .container .flex-item .thongtin-goicuoc .tocdo-goicuoc .tocdogoi {
+	display: block;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.content .container .flex-item .mota_goicuoc p {
+	text-align: left;
+	text-indent: 20px;
+	padding: 15px 0;
+}
+
+.content .container .flex-item .bt_dangky {
+	background: #ffffff;
+	padding: 19px 20px;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0.5px 1px;
+}
+
+.content .container .flex-item .bt_dangky a {
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: 1px solid #fccc;
+	text-transform: uppercase;
+	background: #e25a09;
+	text-decoration: none;
+	color: #ffffff;
+	margin: 10px 0;
+}
+
+.content .container .flex-item .bt_dangky a:hover {
+	background: #034ea2;
+	color: #ffffff;
+}
+
+footer {
+	width: 100%;
+	background: #f37021;
+}
+
+footer .container {
+	width: 1140px;
+	margin: auto;
+}
+
+footer .container .flex-footer {
+	display: flex;
+}
+
+footer .container .flex-footer .content {
+	width: 360px;
+	padding: 10px 0;
+	margin-left: 10px;
+}
+
+footer .container .flex-footer .content .title p {
+	padding: 10px 0;
+	color: #ffffff;
+	font-size: 17px;
+}
+
+footer .container .flex-footer .content span {
+	display: block;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 20px 0;
+	font-weight: bold;
+}
+
+footer .container .flex-footer .content ul {
+	margin: 0;
+	padding: 0;
+}
+
+footer .container .flex-footer .content ul li {
+	list-style: none;
+	display: block;
+	border-bottom: 1px dashed #f59b64;
+	padding: 10px 0;
+	margin-right: 10px;
+}
+
+footer .container .flex-footer .content ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer .container .flex-footer .content ul.flex-img {
+	display: flex;
+}
+
+footer .container .flex-footer .content ul.flex-img li {
+	border-bottom: none;
+	padding: 15px 0;
+}
+
+footer .container .flex-footer .content ul.flex-img li a img {
+	padding: 10px 0;
+}
+
+footer .container .flex-footer .content p a img {
+	padding: 10px 0;
+}
+
+footer .coppyright {
+	background: #000;
+	color: #ffff;
+	text-align: center;
+	padding: 15px 0;
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 996px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 576px) {
+	header {
+		width: 100%;
+	}
+	.flex-item .contact {
+		display: none;
+	}
+
+	.flex-item .hotline {
+		width: 100%;
+	}
+
+	nav {
+		height: auto;
+	}
+
+	.flex-item .flex-menu {
+		display: none;
+	}
+
+	.flex-item .logo img {
+		width: 15%;
+		padding: 0 0 0 10px;
+	}
+
+	.content .container {
+		
+	}
+
+	.content .container {
+		width: 375px;
+	}
+
+	.content .container .flex-item {
+		display: block;
+	}
+
+	.content .container .flex-item ul {
+		width: 375px;
+		
+		display: flex;
+		flex-direction: column;
+	}
+
+	.content .container .flex-item ul li {
+		padding: 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+}
